@@ -1,6 +1,11 @@
 from flask import Flask, render_template, redirect, request, jsonify
 from flask_pymongo import PyMongo
 import scrape_mars
+from splinter import Browser
+from bs4 import BeautifulSoup
+from webdriver_manager.chrome import ChromeDriverManager
+import requests
+import pandas as pd
 
 app = Flask(__name__)
 
