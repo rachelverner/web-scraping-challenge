@@ -2,6 +2,10 @@ from bs4 import BeautifulSoup
 from splinter import Browser
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
+from splinter import Browser
+from bs4 import BeautifulSoup
+from webdriver_manager.chrome import ChromeDriverManager
+import requests
 
 
 def scrape(): 
